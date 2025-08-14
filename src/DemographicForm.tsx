@@ -40,7 +40,7 @@ const DemographicForm = () => {
 
     }
     catch(e){
-        console.log('Error submitting form', e)
+        console.error('Error submitting form', e)
     }
   }
   return (
